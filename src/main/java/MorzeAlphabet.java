@@ -1,9 +1,9 @@
 import java.util.HashMap;
 
 public class MorzeAlphabet {
-    public static final HashMap<String, String> MORZE = new HashMap<String, String>();
+    public static HashMap<String, String> MORZE = new HashMap<String, String>();
 
-    public MorzeAlphabet () {
+    public void MorzeAlphabet () {
         MORZE.put("A", ". -");
         MORZE.put("B", "- . . .");
         MORZE.put("C", "- . - .");
