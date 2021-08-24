@@ -1,14 +1,16 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+/*
+For print HashMap
+ */
 
+public class PrintHashMap extends MorseAlphabet {
 
-public class PrintHashMap extends MorzeAlphabet {
-    public void printHashMap(MorzeAlphabet Alphabet) {
-        System.out.println("----------MORZE ALPHABET----------");
-        for (String key : MORZE.keySet()) {
-            String value = MORZE.get(key);
+    public void printHashMap(MorseAlphabet Alphabet) {
+        System.out.println("----------MORSE ALPHABET----------");
+        for (String key : MORSE.keySet()) {
+            String value = MORSE.get(key);
             System.out.println(key + " ---> " + value);
         }
+        System.out.println("----------SINGLE SPACE FOR SEPARATE CHARS AND 3 SPACES FOR SEPARATE WORDS----------");
+        System.out.println("----------ENTER MORSE SYMBOLS AND PRESS ENTER TWICE----------");
     }
 }
